@@ -1,0 +1,103 @@
+/* Linus Torvalds Style Sheet */
+
+h1, h4 {
+	text-align: center;
+}
+
+#b {
+    margin-top: 10px;
+    border:1px;
+	font-size: 15px;
+}
+
+#b :first-child {
+    margin-top:0;
+}
+
+#header {
+	background-color: #cccccc;
+}
+
+p {
+	font-weight: bold;
+}
+
+body {
+    font-size: 15px;
+	background-color: #d9d9d9;
+	position: relative;
+	background: #888;
+    text-align: justify;
+    border-right-color:#000000;
+    border-right-width:2px;
+    border-right-style:ridge;
+	border-left-color:#000000;
+    border-left-width:2px;
+    border-left-style:ridge;
+}
+
+#section1 {
+	background-color: #f2f2f2;
+	padding-top:100px;
+	padding-bottom: 100px;
+	font: arial, helvetica, sans-serif; 
+
+}
+
+#section2 {
+	background-color: #cccccc;
+	padding-top:85px;
+	padding-bottom:100px;
+	font: arial, helvetica, sans-serif; 
+}
+
+#section3 {
+	background-color: #bfbfbf;
+	padding-top:100px;
+	padding-bottom:100px;
+	font: arial, helvetica, sans-serif; 
+}
+
+#section4 {
+	padding-top:40px;
+	padding-bottom:40px;
+	background-color:#f2f2f2;
+}
+
+.quotes {
+	color: #4d4d4d;
+	font-family: Georgia, Times, serif;
+	letter-spacing: 0.05em;
+	font-style: italic;
+	margin-left: 40px;
+	font-size: 14px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 2px;
+    border: 50px blue;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	padding: 18px
+}
+
+#cool { 
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+	margin-top: 15px;
+}
+
+#awards {
+	padding-bottom: 15px;
+}
+
